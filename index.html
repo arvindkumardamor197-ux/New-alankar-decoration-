@@ -1,16 +1,88 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>New Alankar Decoration - Ahmedabad</title>
+<title>New Alankar Decoration - Royal Wedding Decor in Ahmedabad</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:system-ui}
-body{background:#fff;color:#222}
-.header{background:#111;color:#fff;padding:15px;text-align:center}
-.hero{background:linear-gradient(135deg,#ff6a00,#ee0979);color:#fff;padding:40px 20px;text-align:center}
-.hero h1{font-size:32px;margin-bottom:10px}
-.hero p{font-size:18px}
-.btn{display:inline-block;background:#fff;color:#ee0979;padding:12px 25px;border-radius:30px;text-decoration:none;font-weight:bold;margin-top:15px}
-.section{padding:25px 15px}
-.cards{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+:root{--gold:#B8860B;--gold2:#D4A017;--cream:#FFF8F0;--brown:#3E1F0F;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Poppins',sans-serif;background:var(--cream);color:var(--brown)}
+h1,h2,h3{font-family:'Playfair Display',serif}
+.topbar{background:#FFFCF2;border-bottom:1px solid #F2D9A0;display:flex;justify-content:space-between;align-items:center;padding:12px 5%;flex-wrap:wrap;position:sticky;top:0;z-index:99}
+.logo{font-family:'Playfair Display';font-weight:700;color:var(--gold);font-size:22px;line-height:1.1}
+.logo span{color:var(--brown);display:block;font-size:13px;letter-spacing:3px;font-weight:400}
+.nav a{margin:0 14px;text-decoration:none;color:var(--brown);font-weight:500;font-size:14px}
+.btn-gold{background:linear-gradient(180deg,#C99A2C,#9C6B0E);color:white;padding:10px 22px;border-radius:8px;text-decoration:none;font-weight:600;font-size:14px;box-shadow:0 4px 12px rgba(184,134,11,.3);display:inline-block;text-align:center}
+.hero{position:relative;height:78vh;min-height:500px;background:url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1920') center/cover no-repeat;display:flex;align-items:center;padding:0 5%}
+.hero-card{position:relative;z-index:2;background:rgba(255,248,230,.92);border:1px solid #E8C77A;border-radius:16px;padding:28px;max-width:480px;box-shadow:0 20px 40px rgba(0,0,0,.2)}
+.badge{background:#D4A017;color:#fff;padding:4px 12px;border-radius:20px;font-size:11px;font-weight:700;display:inline-block;margin-bottom:12px}
+.hero-card h1{font-size:32px;line-height:1.15;margin-bottom:10px}
+.btn-outline{border:1.5px solid #B8860B;color:#B8860B;padding:10px 20px;border-radius:8px;text-decoration:none;font-weight:600;font-size:13px;display:inline-block}
+.section{padding:48px 5%}
+.section-head{text-align:center;margin-bottom:28px}
+.section-head h2{font-size:32px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.g-card{background:white;border-radius:14px;overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,.08);border:1px solid #F3E1B5}
+.g-card img{width:100%;height:210px;object-fit:cover}
+.g-card .info{padding:14px;text-align:center}
+.why{background:linear-gradient(180deg,#FFF8E7,#FBE9BB);display:grid;grid-template-columns:1.2fr .8fr;gap:24px;border-radius:16px;padding:28px}
+.feature{display:flex;gap:12px;margin-bottom:14px}
+.icon{width:38px;height:38px;background:white;border:1px solid #E8C77A;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px}
+.map-box iframe{width:100%;height:340px;border:0;border-radius:14px}
+.footer{background:#2C1305;color:#E8C77A;padding:22px 5%;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12px}
+@media(max-width:800px){.why{grid-template-columns:1fr}.hero{height:auto;padding:30px 5%}.nav{display:none}}
+</style>
+</head>
+<body>
+<div class="topbar">
+<div class="logo">NEW ALANKAR<br>DECORATION <span>Ahmedabad • Since 2010</span></div>
+<div class="nav">
+<a href="#">Home</a><a href="#gallery">Gallery</a><a href="#about">About</a><a href="#contact">Contact</a>
+</div>
+<a class="btn-gold" href="tel:+917874639036">Contact Us</a>
+</div>
+<div class="hero">
+<div class="hero-card">
+<div class="badge">ROYAL WEDDING DECOR • SINCE 2010</div>
+<h1>Luxurious Mandap Decorations for Your Royal Wedding</h1>
+<p style="font-size:13.5px;line-height:1.6;color:#5C4033;margin-bottom:18px">Transform your special day with bespoke mandap designs featuring traditional marigold florals, golden drapes, and regal aesthetics.</p>
+<div style="display:flex;gap:10px;flex-wrap:wrap">
+<a class="btn-gold" href="tel:+917874639036">Plan Your Mandap</a>
+<a class="btn-outline" href="#gallery">View Gallery</a>
+</div>
+</div>
+</div>
+<div class="section" id="gallery">
+<div class="section-head"><h2>Our Signature Gallery</h2><p>Explore our curated collection of royal mandap designs</p></div>
+<div class="gallery">
+<div class="g-card"><img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=600"><div class="info"><h4>Royal Floral Mandap</h4></div></div>
+<div class="g-card"><img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=600"><div class="info"><h4>Heritage Gold Mandap</h4></div></div>
+<div class="g-card"><img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=600"><div class="info"><h4>Garden Royal Mandap</h4></div></div>
+</div>
+</div>
+<div class="section" id="contact">
+<div class="section-head"><h2>Visit Us</h2><p>Direct Google Maps Location</p></div>
+<div class="why">
+<div>
+<h2 style="font-size:22px;margin-bottom:12px">New Alankar Decoration</h2>
+<p style="font-size:14px;margin-bottom:14px;line-height:1.6">GIDC Naroda, Ahmedabad, Gujarat<br>Call: +91 78746 39036</p>
+<div class="map-box">
+<iframe src="https://maps.google.com/maps?q=New+Alankar+Decoration+GIDC+Naroda&z=15&output=embed" loading="lazy"></iframe>
+<div style="margin-top:12px;text-align:center;display:flex;gap:10px;flex-wrap:wrap;justify-content:center">
+<a href="https://maps.app.goo.gl/7ta2voS6gg4c6aRi7?g_st=ac" target="_blank" class="btn-gold">📍 Open in Google Maps</a>
+<a href="https://maps.app.goo.gl/7ta2voS6gg4c6aRi7?g_st=ac" target="_blank" class="btn-outline">Get Directions</a>
+</div>
+</div>
+</div>
+<div style="background:white;border-radius:14px;padding:18px;border:1px solid #E8C77A">
+<h3 style="font-size:18px;margin-bottom:10px">Book Free Consultation</h3>
+<a href="https://wa.me/917874639036?text=Namaste%20New%20Alankar%20Decoration%2C%20mujhe%20mandap%20decoration%20chahiye%20-%20Location%3A%20https%3A%2F%2Fmaps.app.goo.gl%2F7ta2voS6gg4c6aRi7" class="btn-gold" style="display:block;text-align:center;width:100%">WhatsApp Now</a>
+<a href="tel:+917874639036" class="btn-outline" style="display:block;text-align:center;margin-top:10px;width:100%">📞 Call 7874639036</a>
+<p style="font-size:11px;margin-top:14px;color:#8B6A56;text-align:center">© 2026 New Alankar Decoration</p>
+</div>
+</div>
+</div>
+</body>
+</html>
